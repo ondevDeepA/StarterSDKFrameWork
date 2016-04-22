@@ -9,10 +9,40 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>ResourceBundle.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Universal.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>D5E381691CC52C75005392D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D5E3817F1CC533AB005392D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D5E381891CC5354B005392D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D5E381931CC53598005392D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D5E3819D1CC53772005392D6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

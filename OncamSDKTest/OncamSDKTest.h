@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <OncamSDKTest/EmptyViewController.h>
 
 @interface OncamSDKTest : NSObject
 

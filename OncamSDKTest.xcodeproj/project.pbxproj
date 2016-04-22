@@ -6,10 +6,46 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		D5E3817F1CC533AB005392D6 /* Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D5E381801CC533AC005392D6 /* Build configuration list for PBXAggregateTarget "Universal" */;
+			buildPhases = (
+				D5E381851CC533D7005392D6 /* Build Universal Framework */,
+			);
+			dependencies = (
+				D5E382911CC55A91005392D6 /* PBXTargetDependency */,
+				D5E382931CC55A92005392D6 /* PBXTargetDependency */,
+			);
+			name = Universal;
+			productName = Universal;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		D5E3816E1CC52C75005392D6 /* OncamSDKTest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D5E3816D1CC52C75005392D6 /* OncamSDKTest.h */; };
-		D5E381701CC52C75005392D6 /* OncamSDKTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E3816F1CC52C75005392D6 /* OncamSDKTest.m */; };
+		D5E381791CC52CA5005392D6 /* EmptyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E381771CC52CA5005392D6 /* EmptyViewController.m */; };
+		D5E3817C1CC52E8D005392D6 /* OncamSDKTest.h in Headers */ = {isa = PBXBuildFile; fileRef = D5E3816D1CC52C75005392D6 /* OncamSDKTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5E3817D1CC52F4B005392D6 /* EmptyViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D5E381761CC52CA5005392D6 /* EmptyViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5E381A51CC539CD005392D6 /* Screen Shot 2016-04-18 at 9.19.19 pm.png in Resources */ = {isa = PBXBuildFile; fileRef = D5E381A41CC539CD005392D6 /* Screen Shot 2016-04-18 at 9.19.19 pm.png */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5E382901CC55A91005392D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5E381621CC52C75005392D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5E381691CC52C75005392D6;
+			remoteInfo = OncamSDKTest;
+		};
+		D5E382921CC55A92005392D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5E381621CC52C75005392D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5E3819D1CC53772005392D6;
+			remoteInfo = ResourceBundle;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		D5E381681CC52C75005392D6 /* CopyFiles */ = {
@@ -25,13 +61,27 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D512E16E1CC6C49000ECFA85 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D5E3816A1CC52C75005392D6 /* libOncamSDKTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOncamSDKTest.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5E3816D1CC52C75005392D6 /* OncamSDKTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OncamSDKTest.h; sourceTree = "<group>"; };
-		D5E3816F1CC52C75005392D6 /* OncamSDKTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OncamSDKTest.m; sourceTree = "<group>"; };
+		D5E381761CC52CA5005392D6 /* EmptyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyViewController.h; sourceTree = "<group>"; };
+		D5E381771CC52CA5005392D6 /* EmptyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyViewController.m; sourceTree = "<group>"; };
+		D5E381781CC52CA5005392D6 /* EmptyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmptyViewController.xib; sourceTree = "<group>"; };
+		D5E381961CC53598005392D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E3819E1CC53772005392D6 /* OncamSDKTest.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OncamSDKTest.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E381A01CC53772005392D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E381A41CC539CD005392D6 /* Screen Shot 2016-04-18 at 9.19.19 pm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2016-04-18 at 9.19.19 pm.png"; path = "../../../../../Desktop/Screen Shot 2016-04-18 at 9.19.19 pm.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D5E381671CC52C75005392D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E3819B1CC53772005392D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,6 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				D5E3816C1CC52C75005392D6 /* OncamSDKTest */,
+				D5E381951CC53598005392D6 /* Resources */,
+				D5E3819F1CC53772005392D6 /* ResourceBundle */,
 				D5E3816B1CC52C75005392D6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				D5E3816A1CC52C75005392D6 /* libOncamSDKTest.a */,
+				D5E3819E1CC53772005392D6 /* OncamSDKTest.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,12 +114,44 @@
 			isa = PBXGroup;
 			children = (
 				D5E3816D1CC52C75005392D6 /* OncamSDKTest.h */,
-				D5E3816F1CC52C75005392D6 /* OncamSDKTest.m */,
+				D5E381761CC52CA5005392D6 /* EmptyViewController.h */,
+				D5E381A41CC539CD005392D6 /* Screen Shot 2016-04-18 at 9.19.19 pm.png */,
+				D5E381771CC52CA5005392D6 /* EmptyViewController.m */,
+				D5E381781CC52CA5005392D6 /* EmptyViewController.xib */,
+				D512E16E1CC6C49000ECFA85 /* main.m */,
 			);
 			path = OncamSDKTest;
 			sourceTree = "<group>";
 		};
+		D5E381951CC53598005392D6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D5E381961CC53598005392D6 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D5E3819F1CC53772005392D6 /* ResourceBundle */ = {
+			isa = PBXGroup;
+			children = (
+				D5E381A01CC53772005392D6 /* Info.plist */,
+			);
+			path = ResourceBundle;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D5E3817B1CC52E85005392D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E3817C1CC52E8D005392D6 /* OncamSDKTest.h in Headers */,
+				D5E3817D1CC52F4B005392D6 /* EmptyViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		D5E381691CC52C75005392D6 /* OncamSDKTest */ = {
@@ -76,6 +161,8 @@
 				D5E381661CC52C75005392D6 /* Sources */,
 				D5E381671CC52C75005392D6 /* Frameworks */,
 				D5E381681CC52C75005392D6 /* CopyFiles */,
+				D5E3817B1CC52E85005392D6 /* Headers */,
+				D5E3817E1CC53067005392D6 /* Prepare Framework */,
 			);
 			buildRules = (
 			);
@@ -85,6 +172,23 @@
 			productName = OncamSDKTest;
 			productReference = D5E3816A1CC52C75005392D6 /* libOncamSDKTest.a */;
 			productType = "com.apple.product-type.library.static";
+		};
+		D5E3819D1CC53772005392D6 /* ResourceBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E381A11CC53772005392D6 /* Build configuration list for PBXNativeTarget "ResourceBundle" */;
+			buildPhases = (
+				D5E3819A1CC53772005392D6 /* Sources */,
+				D5E3819B1CC53772005392D6 /* Frameworks */,
+				D5E3819C1CC53772005392D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResourceBundle;
+			productName = ResourceBundle;
+			productReference = D5E3819E1CC53772005392D6 /* OncamSDKTest.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -96,6 +200,12 @@
 				ORGANIZATIONNAME = OnCam;
 				TargetAttributes = {
 					D5E381691CC52C75005392D6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D5E3817F1CC533AB005392D6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D5E3819D1CC53772005392D6 = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
@@ -113,20 +223,84 @@
 			projectRoot = "";
 			targets = (
 				D5E381691CC52C75005392D6 /* OncamSDKTest */,
+				D5E3817F1CC533AB005392D6 /* Universal */,
+				D5E3819D1CC53772005392D6 /* ResourceBundle */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5E3819C1CC53772005392D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E381A51CC539CD005392D6 /* Screen Shot 2016-04-18 at 9.19.19 pm.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D5E3817E1CC53067005392D6 /* Prepare Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Prepare Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n\n# Link the \"Current\" version to \"A\"\n/bin/ln -sfh A \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\n\n# The -a ensures that the headers maintain the source modification date so that we don't constantly\n# cause propagating rebuilds of files that import these headers.\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"";
+		};
+		D5E381851CC533D7005392D6 /* Build Universal Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Universal Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=${PROJECT_NAME}\nSF_EXECUTABLE_PATH=\"lib${SF_TARGET_NAME}.a\"\nSF_WRAPPER_NAME=\"${SF_TARGET_NAME}.framework\"\n\n# The following conditionals come from\n# https://github.com/kstenerud/iOS-Universal-Framework\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\nSF_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\nSF_OTHER_PLATFORM=iphonesimulator\nelse\nSF_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\nSF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\necho \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\nexit 1\nfi\n\n# Build the other platform.\nxcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n\n# Smash the two static libraries into one fat binary and store it in the .framework\nxcrun lipo -create \"${BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" -output \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n\n# Copy the binary to the other architecture folder to have a complete framework in both.\ncp -a \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D5E381661CC52C75005392D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5E381701CC52C75005392D6 /* OncamSDKTest.m in Sources */,
+				D5E381791CC52CA5005392D6 /* EmptyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E3819A1CC53772005392D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5E382911CC55A91005392D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5E381691CC52C75005392D6 /* OncamSDKTest */;
+			targetProxy = D5E382901CC55A91005392D6 /* PBXContainerItemProxy */;
+		};
+		D5E382931CC55A92005392D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5E3819D1CC53772005392D6 /* ResourceBundle */;
+			targetProxy = D5E382921CC55A92005392D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		D5E381711CC52C75005392D6 /* Debug */ = {
@@ -212,18 +386,84 @@
 		D5E381741CC52C75005392D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				OTHER_LDFLAGS = "-ObjC";
+				DEAD_CODE_STRIPPING = NO;
+				HEADER_SEARCH_PATHS = "/Users/venkatrajeev/Documents/Deep/Oncam/oncam-mobile-development/vendors/libav/oncam-install/ios/include";
+				LIBRARY_SEARCH_PATHS = "/Users/venkatrajeev/Documents/Deep/Oncam/oncam-mobile-development/vendors/libav/oncam-install/ios/lib";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
 			};
 			name = Debug;
 		};
 		D5E381751CC52C75005392D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				OTHER_LDFLAGS = "-ObjC";
+				DEAD_CODE_STRIPPING = NO;
+				HEADER_SEARCH_PATHS = "/Users/venkatrajeev/Documents/Deep/Oncam/oncam-mobile-development/vendors/libav/oncam-install/ios/include";
+				LIBRARY_SEARCH_PATHS = "/Users/venkatrajeev/Documents/Deep/Oncam/oncam-mobile-development/vendors/libav/oncam-install/ios/lib";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		D5E381811CC533AC005392D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5E381821CC533AC005392D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D5E381A21CC53772005392D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				INFOPLIST_FILE = ResourceBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OnCam.SDK.ResourceBundle;
+				PRODUCT_NAME = OncamSDKTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D5E381A31CC53772005392D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				INFOPLIST_FILE = ResourceBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OnCam.SDK.ResourceBundle;
+				PRODUCT_NAME = OncamSDKTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -246,6 +486,25 @@
 				D5E381751CC52C75005392D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E381801CC533AC005392D6 /* Build configuration list for PBXAggregateTarget "Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E381811CC533AC005392D6 /* Debug */,
+				D5E381821CC533AC005392D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E381A11CC53772005392D6 /* Build configuration list for PBXNativeTarget "ResourceBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E381A21CC53772005392D6 /* Debug */,
+				D5E381A31CC53772005392D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
